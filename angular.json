@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "EMutfakWeb": {
@@ -28,7 +28,9 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
+
             ],
             "scripts": []
           },
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "EMutfakWeb"
+    }
+  },
+  "defaultProject": "EMutfakWeb",
+  "cli": {
+    "analytics": "028e32f7-bd0a-44e1-80de-6a91c22c804f"
+  }
 }
